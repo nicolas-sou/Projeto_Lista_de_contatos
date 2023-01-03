@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imagens/Lista&de&contatos.png" alt="Lista de contatos">
+            <h1>Lista de contatos</h1>
+        </header>
+        <form id="form-lista">
+            <input type="text" id="nomelista" required placeholder="nome" />
+            <input type="text" id="telefonelista" required placeholder="telefone"/>
+            <button type="submit"> Cadastrar +</button>
+        </form>
+        <table cellspacing ='0'>
+            <thead>
+                <tr>
+                    <th><img src="imagens/person-icon.png" alt="person-icon">Nome</th>
+                    <th><img src="imagens/icone-telefone.png" alt="person-icon">Telefone </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>usuario</td>
+                    <td>xxxxxxxxxx</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
